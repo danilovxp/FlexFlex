@@ -1,0 +1,32 @@
+.flex-header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*height: 100%;*/
+}
+
+.flex-header-item1 {
+    flex-grow: 1;
+    background: rgba(43, 43, 43, 0.37);
+    padding: 5px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.flex-header-item2 {
+    flex-grow: 4;
+    background: rgba(43, 43, 43, 0.37);
+    padding: 5px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
